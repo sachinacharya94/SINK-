@@ -1,7 +1,6 @@
 const express = require('express')
 require('dotenv').config()
-require("./Database/Connection")
-
+require('./Database/Connection')
 
 const userRoute = require("./Routes/userRoute")
 
